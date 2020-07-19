@@ -52,4 +52,4 @@ print(our_stack.pop())
 print(our_stack.top())
 print(our_stack.size())
 
-#Time Complexity for all operations: O(1)
+# Time Complexity for all operations: O(1)

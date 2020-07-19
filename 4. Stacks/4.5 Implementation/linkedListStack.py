@@ -1,3 +1,4 @@
+# Linked List Implementation of Stack
 class Node:
     def __init__(self):
         self.data = None
@@ -49,3 +50,9 @@ print(our_stack.pop())
 print(our_stack.top())
 our_stack.push('schwifty')
 print(our_stack.top())
+
+# Time Complexity for all but delete entire stack operation: O(1)
+"""
+Clearing the memory for each individual node of stack
+will require O(n) time.
+"""
